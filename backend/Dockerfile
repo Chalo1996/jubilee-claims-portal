@@ -11,10 +11,9 @@ WORKDIR /app
 # Non-root user for least-privilege execution
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
-COPY --from=deps /app/node_modules ./node_modules
-COPY . .
+COPY --from=deps --chown=appuser:appgroup /app/node_modules ./node_modules
+COPY --chown=appuser:appgroup . .
 
-RUN chown -R appuser:appgroup /app
 USER appuser
 
 EXPOSE 5000
