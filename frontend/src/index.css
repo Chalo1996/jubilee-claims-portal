@@ -1,20 +1,43 @@
 @import "tailwindcss";
 
 /* ── Jubilee Insurance brand theme ───────────────────────────────
-   Jubilee's primary brand colour is an emerald/teal green (#00A859).
-   This palette powers every brand accent (nav, buttons, links).   */
+   Official Jubilee Insurance (jubileeinsurance.com/ke) visual identity:
+     • Shiraz (red)    #BA0C2F — primary branding, CTAs, nav, focal points
+     • Danube (blue)   #70A1D1 — secondary accents, supportive UI (focus rings)
+     • Antique Bronze  #664D03 — subtle/earthy accents
+     • Neutral white/grey — backgrounds and structured content            */
 @theme {
-  --color-jubilee-50:  #e6f9f0;
-  --color-jubilee-100: #c8f1e0;
-  --color-jubilee-200: #9fe6c8;
-  --color-jubilee-300: #5fd4a6;
-  --color-jubilee-400: #19bd7e;
-  --color-jubilee-500: #04a766;
-  --color-jubilee-600: #00a859;
-  --color-jubilee-700: #008f4b;
-  --color-jubilee-800: #00753e;
-  --color-jubilee-900: #005c30;
-  --color-jubilee-950: #00331b;
+  /* Shiraz — primary red */
+  --color-jubilee-50:  #fbeaee;
+  --color-jubilee-100: #f4cdd6;
+  --color-jubilee-200: #e8a3b3;
+  --color-jubilee-300: #d96f88;
+  --color-jubilee-400: #c93a59;
+  --color-jubilee-500: #c2183c;
+  --color-jubilee-600: #ba0c2f;
+  --color-jubilee-700: #9c0a28;
+  --color-jubilee-800: #7e0820;
+  --color-jubilee-900: #5e0618;
+  --color-jubilee-950: #3d0410;
+
+  /* Danube — secondary soft blue */
+  --color-danube-50:  #eef5fb;
+  --color-danube-100: #d9e8f5;
+  --color-danube-200: #bcd6ec;
+  --color-danube-300: #a7c8e8;
+  --color-danube-400: #8ab4de;
+  --color-danube-500: #70a1d1;
+  --color-danube-600: #5889bd;
+  --color-danube-700: #466d97;
+  --color-danube-800: #3a5879;
+  --color-danube-900: #2f4861;
+
+  /* Antique Bronze — earthy accent */
+  --color-bronze-50:  #f7f2e3;
+  --color-bronze-100: #ece1c0;
+  --color-bronze-700: #664d03;
+  --color-bronze-800: #4d3a02;
+  --color-bronze-900: #332701;
 }
 
 @layer utilities {

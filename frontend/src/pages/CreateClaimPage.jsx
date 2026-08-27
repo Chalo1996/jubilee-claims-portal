@@ -90,7 +90,7 @@ export default function CreateClaimPage() {
   const today = new Date().toISOString().split('T')[0];
 
   function fieldClass(name) {
-    return `w-full px-3 py-2 text-sm border rounded-md focus:outline-none focus:ring-2 focus:ring-jubilee-500
+    return `w-full px-3 py-2 text-sm border rounded-md focus:outline-none focus:ring-2 focus:ring-danube-500
             ${errors[name] ? 'border-red-400 focus:ring-red-400' : 'border-gray-300'}`;
   }
 
@@ -264,7 +264,7 @@ export default function CreateClaimPage() {
             disabled={submitting}
             className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium
                        text-white bg-jubilee-600 rounded-md hover:bg-jubilee-700 disabled:opacity-50
-                       focus:outline-none focus:ring-2 focus:ring-jubilee-500"
+                       focus:outline-none focus:ring-2 focus:ring-danube-500"
           >
             {submitting && <Spinner size="sm" />}
             {submitting ? 'Submitting…' : 'Submit Claim'}

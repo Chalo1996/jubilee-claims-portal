@@ -28,7 +28,7 @@ export default function App() {
                       <Route path="*"           element={<NotFoundPage />} />
                     </Routes>
                   </main>
-                  <footer className="border-t border-gray-200 bg-white py-4 text-center text-xs text-gray-400">
+                  <footer className="border-t border-gray-200 bg-white py-4 text-center text-xs text-bronze-700">
                     Jubilee Insurance — Claims Processing Portal
                   </footer>
                 </div>

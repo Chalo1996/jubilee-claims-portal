@@ -45,7 +45,7 @@ export default function ClaimsFilters({ filters, onChange }) {
             onKeyDown={handleSearchKey}
             onBlur={handleSearchBlur}
             className="w-full pl-9 pr-3 py-2 text-sm border border-gray-300 rounded-md
-                        focus:outline-none focus:ring-2 focus:ring-jubilee-500 focus:border-transparent"
+                        focus:outline-none focus:ring-2 focus:ring-danube-500 focus:border-transparent"
             aria-label="Search claims"
           />
         </div>
@@ -54,7 +54,7 @@ export default function ClaimsFilters({ filters, onChange }) {
         <select
           value={filters.status || ''}
           onChange={(e) => handleSelect('status', e.target.value)}
-          className="px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-jubilee-500"
+          className="px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-danube-500"
           aria-label="Filter by status"
         >
           <option value="">All statuses</option>
@@ -67,7 +67,7 @@ export default function ClaimsFilters({ filters, onChange }) {
         <select
           value={filters.claim_type || ''}
           onChange={(e) => handleSelect('claim_type', e.target.value)}
-          className="px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-jubilee-500"
+          className="px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-danube-500"
           aria-label="Filter by claim type"
         >
           <option value="">All types</option>

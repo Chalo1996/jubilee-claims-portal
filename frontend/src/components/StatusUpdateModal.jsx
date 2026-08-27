@@ -68,7 +68,7 @@ export default function StatusUpdateModal({ claim, onClose, onSuccess }) {
                 onChange={(e) => setSelected(e.target.value)}
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm
-                           focus:outline-none focus:ring-2 focus:ring-jubilee-500"
+                           focus:outline-none focus:ring-2 focus:ring-danube-500"
               >
                 <option value="">— Select —</option>
                 {allowed.map((s) => (
@@ -99,7 +99,7 @@ export default function StatusUpdateModal({ claim, onClose, onSuccess }) {
                 disabled={!selected || loading}
                 className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium
                             text-white bg-jubilee-600 rounded-md hover:bg-jubilee-700 disabled:opacity-50
-                           focus:outline-none focus:ring-2 focus:ring-jubilee-500"
+                           focus:outline-none focus:ring-2 focus:ring-danube-500"
               >
                 {loading && <Spinner size="sm" />}
                 Update Status
