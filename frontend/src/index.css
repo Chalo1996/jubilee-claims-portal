@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+/* ── Jubilee Insurance brand theme ───────────────────────────────
+   Jubilee's primary brand colour is an emerald/teal green (#00A859).
+   This palette powers every brand accent (nav, buttons, links).   */
+@theme {
+  --color-jubilee-50:  #e6f9f0;
+  --color-jubilee-100: #c8f1e0;
+  --color-jubilee-200: #9fe6c8;
+  --color-jubilee-300: #5fd4a6;
+  --color-jubilee-400: #19bd7e;
+  --color-jubilee-500: #04a766;
+  --color-jubilee-600: #00a859;
+  --color-jubilee-700: #008f4b;
+  --color-jubilee-800: #00753e;
+  --color-jubilee-900: #005c30;
+  --color-jubilee-950: #00331b;
+}
+
 @layer utilities {
   .animate-fade-in {
     animation: fadeIn 0.2s ease-in-out;

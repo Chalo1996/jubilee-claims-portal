@@ -6,12 +6,12 @@ export default function Pagination({ pagination, onPageChange }) {
   const to   = Math.min(page * limit, total);
 
   return (
-    <div className="flex items-center justify-between border-t border-gray-200 px-4 py-3 sm:px-6">
+    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-t border-gray-200 px-4 py-3 sm:px-6">
       <p className="text-sm text-gray-600">
         Showing <span className="font-medium">{from}</span>–<span className="font-medium">{to}</span>{' '}
         of <span className="font-medium">{total}</span> claims
       </p>
-      <div className="flex gap-1">
+      <div className="flex flex-wrap gap-1">
         <button
           onClick={() => onPageChange(page - 1)}
           disabled={page <= 1}
@@ -38,7 +38,7 @@ export default function Pagination({ pagination, onPageChange }) {
                 onClick={() => onPageChange(p)}
                 className={`px-3 py-1.5 text-sm rounded-md border ${
                   p === page
-                    ? 'bg-blue-600 text-white border-blue-600'
+                     ? 'bg-jubilee-600 text-white border-jubilee-600'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
                 }`}
                 aria-current={p === page ? 'page' : undefined}

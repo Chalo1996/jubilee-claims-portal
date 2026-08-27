@@ -38,13 +38,13 @@ export default function ClaimsTable({ claims }) {
             <tr
               key={claim.id}
               onClick={() => navigate(`/claims/${claim.id}`)}
-              className="hover:bg-blue-50 cursor-pointer transition-colors"
+              className="hover:bg-jubilee-50 cursor-pointer transition-colors"
               role="row"
               tabIndex={0}
               onKeyDown={(e) => e.key === 'Enter' && navigate(`/claims/${claim.id}`)}
               aria-label={`View claim ${claim.claim_number}`}
             >
-              <td className="px-4 py-3 text-sm font-medium text-blue-700 whitespace-nowrap">
+               <td className="px-4 py-3 text-sm font-medium text-jubilee-700 whitespace-nowrap">
                 {claim.claim_number}
               </td>
               <td className="px-4 py-3 text-sm text-gray-700 whitespace-nowrap">
