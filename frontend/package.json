@@ -4,12 +4,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "node ./node_modules/.bin/ncc build _api/app.js -o api_bundle --external pg-native --quiet && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
-    "@vercel/ncc": "^0.45.0",
     "@vitejs/plugin-react": "^6.1.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
