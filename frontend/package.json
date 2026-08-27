@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "@vercel/ncc": "^0.45.0",
     "@vitejs/plugin-react": "^6.1.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
