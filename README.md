@@ -4,7 +4,7 @@
 
 A full-stack insurance claims management system. Claims officers can submit, review, approve, reject, and mark claims as paid through an enforced status workflow.
 
-**Live demo:** [https://jubilee-claims-portal.vercel.app](https://jubilee-claims-portal.vercel.app)  
+**Live demo:** [https://jubilee-claims-portal-v2.vercel.app](https://jubilee-claims-portal-2.vercel.app)  
 **Docker Hub:** [chaloemmanuel/jubilee-claims-backend](https://hub.docker.com/r/chaloemmanuel/jubilee-claims-backend) · [chaloemmanuel/jubilee-claims-frontend](https://hub.docker.com/r/chaloemmanuel/jubilee-claims-frontend)  
 **Architecture:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/aws-architecture.svg](docs/aws-architecture.svg)
 
